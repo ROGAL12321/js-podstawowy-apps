@@ -72,3 +72,10 @@ console.log('Hello Paweł');
 // UWAGA: Nie dawaj liczb wiekszych niz 10
 
 // 2*. Napisz program, ktory imituje gre papier, kamien, nozyce. Popros najpierw o wybor pierwszego uzytkownika, potem popros o wybor drugiego uzytkownika, a nastepnie napisz program, ktory decyduje kto wygral.
+
+// const choise1 = prompt('X')
+// const choise2 = prompt('Y')
+
+// if(choise1 === 'Kamien' && choise2 === 'Nozyce' || choise1 === '' && ) {
+//  console.log('wygral gracz 1')
+// }
