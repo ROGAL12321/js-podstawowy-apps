@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    .container {
+      width: 1024px;
+      margin: 40px auto;
+    }
+
+    .blog {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .blogpost {
+      border: 1px solid black;
+      border-radius: 8px;
+      overflow: hidden;
+      max-width: 400px;
+      margin: 20px auto;
+    }
+
+    .blogpost img {
+      width: 100%;
+    }
+
+    .blogpost h2 {
+      margin: 10px 0;
+    }
+
+    .blogpost a {
+      display: block;
+      margin-top: 5px;
+    }
+
+    .blogpost-content {
+      padding: 15px;
+    }
+
+    .filters {
+      margin: 20px 0;
+    }
+
+    .filters label {
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Blog</h1>
+    <form id="searchForm">
+      <label>
+        Search
+        <input placeholder="Type something..." id="searchInput">
+      </label>
+      <button>Go</button>
+    </form>
+    <div class="filters" id="filters"></div>
+    <hr>
+    <ul class="blog" id="blogList"></ul>
+  </div>
+  <script src="./js/main.js" type="module"></script>
+</body>
+</html>

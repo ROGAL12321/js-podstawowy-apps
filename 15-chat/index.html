@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+    <form id="searchForm">
+      <label>
+        Search
+        <input id="searchInput"/>
+      </label>
+      <button type="submit">Szukaj &#8667;</button>
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form class="form" id="messageForm">
+      <label>
+        Author
+        <input id="messageAuthor"/>
+      </label>
+      <label>
+        Message
+        <input id="messageText"/>
+      </label>
+      <button>Send</button>
+    </form>
+    <div>
+      <label>
+        Sortuj po likach
+        <input type="checkbox" id="sortByLikesCheckbox">
+      </label>
+      <hr>
+    </div>
+    <br>
+    <ul class="list" id="messagesList"></ul>
+  </div>
+  <script src="./js/main.js" type="module"></script>
+</body>
+</html>
+
